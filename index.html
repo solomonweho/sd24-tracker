@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SD24 Runoff Tracker</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+body {
+    font-family: Arial;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    display:inline-block;
+    width:220px;
+    padding:15px;
+    margin:10px;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>SD24 Runoff Tracker</h1>
+
+<div class="card">
+<h2>Marshall</h2>
+<p id="marshall"></p>
+</div>
+
+<div class="card">
+<h2>Goldsmith</h2>
+<p id="goldsmith"></p>
+</div>
+
+<div class="card">
+<h2>Erickson</h2>
+<p id="erickson"></p>
+</div>
+
+<div class="card">
+<h2>Irwin</h2>
+<p id="irwin"></p>
+</div>
+
+<canvas id="voteChart"></canvas>
+
+<script src="app.js"></script>
+
+</body>
+</html>
