@@ -1,0 +1,16 @@
+[
+  {
+    "update":"Baseline",
+    "marshall":37902,
+    "goldsmith":34242,
+    "erickson":30340,
+    "irwin":29918
+  },
+  {
+    "update":"Update 1",
+    "marshall":39337,
+    "goldsmith":36768,
+    "erickson":33069,
+    "irwin":31298
+  }
+]
